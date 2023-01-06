@@ -1,19 +1,16 @@
 import Hovering from "./components/Hovering";
-import Play from "./components/Play";
-import Cat from "./components/Cat";
+import Play from "./components/Play/Play";
+import Cat from "./components/cats/Cat";
 import requests from "./requests";
+import React, { useEffect, useState } from "react";
 
 
 function App() {
+    const [isHovering, setIsHovering] = useState(0);
+
     return (
         <div className="App">
-            {/* <Play /> */}
-            <Cat title="BasicTrending Now" fetchUrl={requests.BasicTrending} />
-            <Cat title="FilmTrending" fetchUrl={requests.FilmTrending} />
-            <Cat title="MusicTrending" fetchUrl={requests.MusicTrending} />
-            <Cat title="PetTrending" fetchUrl={requests.PetTrending} />
-            <Cat title="GamingTrending" fetchUrl={requests.GamingTrending} />
-            {/* <Hovering /> */}
+            <Hovering />
         </div>
     );
 }
