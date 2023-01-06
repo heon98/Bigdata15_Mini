@@ -19,6 +19,8 @@ const Row = (props) => {
             {videos.map((video) => (
                 <img
                     key={video.id}
+                    width="720"
+                    height="405"
                     src={video?.snippet.thumbnails.medium.url}
                     alt=""
                 />
