@@ -1,9 +1,9 @@
-import Row from "./components/Row";
+import Play from "./components/Play";
 
 function App() {
     return (
         <div className="App">
-            <Row />
+            <Play />
         </div>
     );
 }
