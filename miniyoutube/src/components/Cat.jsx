@@ -1,33 +1,27 @@
 import React, { useEffect, useState } from "react";
-import "./Row.css";
+import "./Cat.css";
 
-const Row = (props) => {
+const Cat = (props) => {
     const [videos, setVideos] = useState([]);
     useEffect(() => {
-        fetch(
-            "https://www.googleapis.com/youtube/v3/videos?part=snippet&chart=mostPopular&maxResults=30&regionCode=KR&key=AIzaSyBeymQmQdVEAPAciY51spK3v0kvJM-Um4o"
-        )
+        fetch(props.fetchUrl)
             .then((response) => response.json())
             .then((data) => {
                 const videos = data.items;
                 setVideos(videos);
             });
     }, []);
-
     return (
-        <div>
+        <div className="cat">
             {videos.map((video) => (
                 <img
                     key={video.id}
-                    src={video?.snippet.thumbnails.medium.url}
+                    src={video.snippet.thumbnails.medium.url}
                     alt=""
                 />
             ))}
         </div>
-        // <p>dd</p>
     );
 };
 
-export default Row;
-
-// console.log(video.items[0].snippet.thumbnails.default.url);
+export default Cat;
