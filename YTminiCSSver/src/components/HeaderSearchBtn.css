@@ -1,0 +1,16 @@
+.headersearchbutton-child {
+  cursor: pointer;
+  border: 1px solid var(--color-gray-500);
+  padding: 0;
+  background-color: var(--color-gray-100);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0 var(--br-lg) var(--br-lg) 0;
+  box-sizing: border-box;
+  width: 54px;
+  height: 32px;
+}
+.headersearchbutton-child:hover {
+  background-color: var(--color-gray-200);
+}
