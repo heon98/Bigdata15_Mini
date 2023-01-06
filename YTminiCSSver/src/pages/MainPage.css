@@ -1,0 +1,561 @@
+.div,
+.header1 {
+  position: absolute;
+}
+.header1 {
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 1366px;
+  height: 64px;
+}
+.div {
+  height: 34.21%;
+  width: 54.93%;
+  top: 18.42%;
+  left: 39.44%;
+  display: inline-block;
+}
+.mask-group-icon {
+  position: absolute;
+  height: 84.21%;
+  width: 30.58%;
+  top: 15.79%;
+  right: 60.97%;
+  bottom: 0;
+  left: 8.45%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.headerloginbtn {
+  position: absolute;
+  top: 18px;
+  left: 1287px;
+  width: 71px;
+  height: 38px;
+}
+.headerspeaktosearchbtn-icon {
+  position: absolute;
+  top: 17px;
+  left: 1005px;
+  width: 30px;
+  height: 30px;
+}
+.headermorebtn-child {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-white);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.headermorebtn-child:hover,
+.headeropenhidemenubtn:hover,
+.sidemenulivebtn:hover,
+.sidemenumoviesbtn:hover,
+.sidemenumusicbtn:hover {
+  background-color: var(--color-gray-400);
+}
+.moreicon {
+  position: absolute;
+  height: 57.58%;
+  width: 21.59%;
+  top: 24.24%;
+  right: 37.5%;
+  bottom: 18.18%;
+  left: 40.91%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.headermorebtn {
+  position: absolute;
+  top: 14px;
+  left: 1262px;
+  width: 22px;
+  height: 33px;
+}
+.menubutton-wrapper {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.frame-icon,
+.headeropenhidemenubtn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 64px;
+  height: 64px;
+}
+.frame-icon {
+  height: 75%;
+  width: 44.44%;
+  top: 15.63%;
+  right: 33.33%;
+  bottom: 9.38%;
+  left: 22.22%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.headersearchbutton,
+.headerytlogo {
+  position: absolute;
+  top: 16px;
+  left: 940px;
+  width: 54px;
+  height: 32px;
+}
+.headerytlogo {
+  left: 64px;
+  width: 130px;
+  height: 29px;
+}
+.header,
+.sidemenubody {
+  position: absolute;
+  left: 0;
+  background-color: var(--color-white);
+}
+.header {
+  top: 0;
+  width: 1366px;
+  height: 64px;
+  overflow: hidden;
+  color: #1da0ff;
+}
+.sidemenubody {
+  top: 4px;
+  width: 188px;
+  height: 1095px;
+}
+.sidemenu-child,
+.sidemenu-item {
+  position: absolute;
+  top: 273px;
+  left: 4px;
+  background-color: var(--color-gray-300);
+  width: 180px;
+  height: 1px;
+}
+.sidemenu-item {
+  top: 150px;
+}
+.div1 {
+  position: absolute;
+  height: 45%;
+  width: 28.07%;
+  top: 27.5%;
+  left: 29.82%;
+  display: inline-block;
+}
+.group-icon {
+  position: absolute;
+  height: 50.63%;
+  width: 10.53%;
+  top: 21.88%;
+  right: 77.78%;
+  bottom: 27.5%;
+  left: 11.7%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.shorts,
+.sidemenuhomebtn {
+  position: absolute;
+  top: 9px;
+  left: 9px;
+  width: 171px;
+  height: 40px;
+}
+.shorts {
+  height: 45%;
+  width: 28.07%;
+  top: 27.5%;
+  left: 29.82%;
+  font-size: var(--font-size-base);
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.shortsicon {
+  position: absolute;
+  height: 60%;
+  width: 14.04%;
+  top: 22.5%;
+  right: 77.78%;
+  bottom: 17.5%;
+  left: 8.19%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.sidemenushortsbtn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 53px;
+  left: 9px;
+  width: 171px;
+  height: 40px;
+}
+.div2 {
+  position: absolute;
+  top: 9px;
+  left: 51px;
+  display: inline-block;
+  width: 48px;
+  height: 18px;
+}
+.subscribedicon {
+  position: absolute;
+  height: 60%;
+  width: 14.04%;
+  top: 12.5%;
+  right: 76.02%;
+  bottom: 27.5%;
+  left: 9.94%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.frame-icon1,
+.sidemenusubscribedbtn {
+  position: absolute;
+  top: 100px;
+  left: 9px;
+  width: 171px;
+  height: 40px;
+}
+.frame-icon1 {
+  height: 60%;
+  width: 14.04%;
+  top: 20%;
+  right: 76.02%;
+  bottom: 20%;
+  left: 9.94%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.sidemenustoragebtn {
+  position: absolute;
+  top: 168px;
+  left: 9px;
+  background-color: var(--color-gray-400);
+  width: 171px;
+  height: 40px;
+}
+.div4 {
+  position: absolute;
+  height: 45%;
+  width: 40.94%;
+  top: 27.5%;
+  left: 29.82%;
+  display: inline-block;
+}
+.frame-icon2 {
+  position: absolute;
+  height: 60%;
+  width: 14.04%;
+  top: 17.5%;
+  right: 75.44%;
+  bottom: 22.5%;
+  left: 10.53%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.div5,
+.sideviewhistorybtn {
+  position: absolute;
+  top: 213px;
+  left: 9px;
+  width: 171px;
+  height: 40px;
+}
+.div5 {
+  height: 45%;
+  width: 45.03%;
+  top: 27.5%;
+  left: 29.82%;
+  display: inline-block;
+}
+.frame-icon3 {
+  position: absolute;
+  height: 60%;
+  width: 14.04%;
+  top: 15%;
+  right: 75.44%;
+  bottom: 25%;
+  left: 10.53%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.div6,
+.sidemenucurrentlytrendingbtn {
+  position: absolute;
+  top: 294px;
+  left: 9px;
+  width: 171px;
+  height: 40px;
+}
+.div6 {
+  height: 45%;
+  width: 45.03%;
+  top: 27.5%;
+  left: 29.82%;
+  font-size: var(--font-size-base);
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.sidemenumoviesbtn,
+.sidemenumusicbtn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 339px;
+  left: 9px;
+  width: 171px;
+  height: 40px;
+}
+.sidemenumoviesbtn {
+  top: 384px;
+}
+.frame-icon6 {
+  position: absolute;
+  height: 60%;
+  width: 14.04%;
+  top: 20%;
+  right: 75.44%;
+  bottom: 20%;
+  left: 10.53%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.sidemenulivebtn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 429px;
+  left: 9px;
+  width: 171px;
+  height: 40px;
+}
+.sidemenu {
+  position: absolute;
+  top: 72px;
+  left: 0;
+  width: 188px;
+  height: 1087px;
+  overflow: hidden;
+  font-size: var(--font-size-base);
+}
+.tagsarea-child {
+  position: absolute;
+  top: 0;
+  left: 1px;
+  background-color: var(--color-white);
+  width: 1178px;
+  height: 45px;
+}
+.rectangle-div,
+.tagsarea-child1,
+.tagsarea-inner,
+.tagsarea-item {
+  position: absolute;
+  top: 8px;
+  left: 46px;
+  border-radius: var(--br-xs);
+  background-color: var(--color-gray-100);
+  width: 69px;
+  height: 29px;
+}
+.rectangle-div,
+.tagsarea-child1,
+.tagsarea-inner {
+  left: 126px;
+}
+.rectangle-div,
+.tagsarea-child1 {
+  left: 206px;
+}
+.tagsarea-child1 {
+  left: 286px;
+}
+.tagsarea {
+  position: absolute;
+  top: 64px;
+  left: 187px;
+  width: 1179px;
+  height: 45px;
+  overflow: hidden;
+}
+.thumbnail,
+.thumbnail1,
+.thumbnail2,
+.thumbnail3 {
+  position: absolute;
+  top: 25px;
+  left: 43px;
+  width: 260px;
+  height: 146.25px;
+}
+.thumbnail1,
+.thumbnail2,
+.thumbnail3 {
+  top: 311px;
+}
+.thumbnail2,
+.thumbnail3 {
+  top: 25px;
+  left: 615px;
+}
+.thumbnail3 {
+  top: 311px;
+}
+.thumbnail4,
+.thumbnail5,
+.thumbnail6,
+.thumbnail7 {
+  position: absolute;
+  top: 25px;
+  left: 329px;
+  width: 260px;
+  height: 146.25px;
+}
+.thumbnail5,
+.thumbnail6,
+.thumbnail7 {
+  top: 311px;
+}
+.thumbnail6,
+.thumbnail7 {
+  top: 25px;
+  left: 901px;
+}
+.thumbnail7 {
+  top: 311px;
+}
+.ipsum-lorem1 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.ipsum-lorem,
+.ipsum-lorem2,
+.ipsum-lorem4 {
+  position: absolute;
+  height: 46.3%;
+  width: 72.69%;
+  top: 13.89%;
+  left: 25.77%;
+  display: inline-block;
+}
+.ipsum-lorem2,
+.ipsum-lorem4 {
+  height: 10.19%;
+  width: 36.15%;
+  top: 58.33%;
+}
+.ipsum-lorem4 {
+  top: 73.15%;
+}
+.vidtitleviewsetc-child {
+  position: absolute;
+  height: 37.04%;
+  width: 15.38%;
+  top: 18.52%;
+  right: 81.15%;
+  bottom: 44.44%;
+  left: 3.46%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vidtitleviewsetc,
+.vidtitleviewsetc1,
+.vidtitleviewsetc2 {
+  position: absolute;
+  top: 187px;
+  left: 43px;
+  width: 260px;
+  height: 108px;
+}
+.vidtitleviewsetc1,
+.vidtitleviewsetc2 {
+  top: 473px;
+}
+.vidtitleviewsetc2 {
+  top: 187px;
+  left: 615px;
+}
+.vidtitleviewsetc3,
+.vidtitleviewsetc4,
+.vidtitleviewsetc5 {
+  position: absolute;
+  top: 473px;
+  left: 615px;
+  width: 260px;
+  height: 108px;
+}
+.vidtitleviewsetc4,
+.vidtitleviewsetc5 {
+  top: 187px;
+  left: 329px;
+}
+.vidtitleviewsetc5 {
+  top: 473px;
+}
+.body,
+.vidtitleviewsetc6,
+.vidtitleviewsetc7 {
+  position: absolute;
+  top: 187px;
+  left: 901px;
+  width: 260px;
+  height: 108px;
+}
+.body,
+.vidtitleviewsetc7 {
+  top: 473px;
+}
+.body {
+  top: 109px;
+  left: 187px;
+  width: 1178px;
+  height: 1050px;
+  overflow: hidden;
+}
+.mainpage {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1159px;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

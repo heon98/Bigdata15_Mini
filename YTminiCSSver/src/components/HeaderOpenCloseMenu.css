@@ -1,0 +1,30 @@
+.menuicon-child,
+.menuicon-inner,
+.menuicon-item {
+  position: absolute;
+  height: 4.76%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 95.24%;
+  left: 0;
+  background-color: var(--color-black);
+}
+.menuicon-inner,
+.menuicon-item {
+  top: 47.62%;
+  bottom: 47.62%;
+}
+.menuicon-inner {
+  top: 95.24%;
+  bottom: 0;
+}
+.menuicon {
+  position: absolute;
+  height: 27.02%;
+  width: 43.75%;
+  top: 35.94%;
+  right: 28.13%;
+  bottom: 37.04%;
+  left: 28.13%;
+}

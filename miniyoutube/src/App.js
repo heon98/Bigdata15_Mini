@@ -1,6 +1,8 @@
+import Hovering from "./components/Hovering";
 import Play from "./components/Play";
 import Cat from "./components/Cat";
 import requests from "./requests";
+
 
 function App() {
     return (
@@ -11,6 +13,7 @@ function App() {
             <Cat title="MusicTrending" fetchUrl={requests.MusicTrending} />
             <Cat title="PetTrending" fetchUrl={requests.PetTrending} />
             <Cat title="GamingTrending" fetchUrl={requests.GamingTrending} />
+            {/* <Hovering /> */}
         </div>
     );
 }
